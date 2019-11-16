@@ -77,10 +77,10 @@ def gross_per_studio(collection)
     studio = movie[:studio]
     worldwide_gross = movie[:worldwide_gross]
     
-    if studio_totals[:studio]
-      studio_totals[:studio] += worldwide_gross
+    if studio_totals[studio]
+      studio_totals[studio] += worldwide_gross
     else
-      studio_totals[:studio] = worldwide_gross
+      studio_totals[studio] = worldwide_gross
     end
     
     i += 1
