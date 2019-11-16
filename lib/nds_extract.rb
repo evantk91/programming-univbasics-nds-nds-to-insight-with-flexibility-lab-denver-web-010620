@@ -108,7 +108,7 @@ def movies_with_directors_set(source)
     name = director_info[:name]
     movies = director_info[:movies]
     
-    array_of_movies = movies_with_director_names(name, movies)
+    array_of_movies = movies_with_director_key(name, movies)
   end
   
   array_of_movies
