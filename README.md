@@ -1,4 +1,4 @@
-le# Getting Insight from Nested Data Structures (Flexibly)
+# Getting Insight from Nested Data Structures (Flexibly)
 
 ## Learning Goals
 
